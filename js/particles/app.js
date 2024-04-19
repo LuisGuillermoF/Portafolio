@@ -1,18 +1,4 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
 particlesJS('particles-js',
-
     {
         "particles": {
             "number": {
@@ -23,7 +9,7 @@ particlesJS('particles-js',
                 }
             },
             "color": {
-                "value": "#ffffff"
+                "value": "#00b4d8"
             },
             "shape": {
                 "type": "circle",
@@ -51,7 +37,7 @@ particlesJS('particles-js',
                 }
             },
             "size": {
-                "value": 5,
+                "value": 3,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -62,10 +48,10 @@ particlesJS('particles-js',
             },
             "line_linked": {
                 "enable": true,
-                "distance": 150,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
+                "distance": 180,
+                "color": "#00b4d8",
+                "opacity": 0.5208374434773,
+                "width": 2
             },
             "move": {
                 "enable": true,
@@ -74,6 +60,7 @@ particlesJS('particles-js',
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
+                "bounce": false,
                 "attract": {
                     "enable": false,
                     "rotateX": 600,
@@ -109,7 +96,8 @@ particlesJS('particles-js',
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 200
+                    "distance": 200,
+                    "duration": 0.4
                 },
                 "push": {
                     "particles_nb": 4
@@ -119,21 +107,6 @@ particlesJS('particles-js',
                 }
             }
         },
-        "retina_detect": true,
-        "config_demo": {
-            "hide_card": false,
-            "background_color": "#b61924",
-            "background_image": "",
-            "background_position": "50% 50%",
-            "background_repeat": "no-repeat",
-            "background_size": "cover"
-        }
+        "retina_detect": true
     }
-
-);
-
-window.onload = function () {
-    Particles.init({
-        selector: "#particles-js",
-    });
-};
+)
