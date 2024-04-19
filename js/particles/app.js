@@ -131,3 +131,9 @@ particlesJS('particles-js',
     }
 
 );
+
+window.onload = function () {
+    Particles.init({
+        selector: "#particles-js",
+    });
+};
