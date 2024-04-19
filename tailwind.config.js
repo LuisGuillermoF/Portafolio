@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        'primary': 'blue-aqua',
+        'secondary': 'back-gray'
+      },
+      textColor: ['active'],
   },
   plugins: [],
 }
-
+}
