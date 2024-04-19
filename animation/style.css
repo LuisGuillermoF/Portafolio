@@ -1,0 +1,40 @@
+:root{
+    --primary: #00B4D8;
+    --secondary: #212529;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+
+
+#backPrimary{
+    background-color: #212529b0;
+    margin: auto;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#img img{
+    width: 50%;
+    margin-left: 26%;
+}
+
+#html:hover{
+    color:#00B4D8
+}
+
+#css:hover{
+    color:#00B4D8
+}
+
+#js:hover{
+    color:#00B4D8
+}
+
+#java:hover{
+    color:#00B4D8
+}
