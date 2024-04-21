@@ -1,7 +1,7 @@
 :root{
     --primary: #00B4D8;
     --secondary: #212529;
-  }
+}
 
 *{
     margin: 0;
@@ -57,4 +57,13 @@
 
 #java:hover{
     color:#00B4D8
+}
+
+.horizontal{
+    width: 100vw;
+    height: 100vw;
+}
+
+#card{
+    background-color: #212529ab;
 }

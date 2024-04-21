@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/animation/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="/animation/swiper-bundle.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
 </head>
@@ -26,8 +28,7 @@
 
     <main id="principal" class="text-while">
         <div id="inicio" class="w-full content-center grid justify-items-center h-screen">
-            <div id="sobremi"
-                class="grid grid-cols-4  text-white bg-gray-950 bg-opacity-50 h-auto w-10/12 p-24 rounded-3xl">
+            <div id="sobremi" class="grid grid-cols-4  text-white  bg-opacity-50 h-auto w-10/12 p-24 rounded-3xl">
                 <div class="text-left h-auto w-7/12 col-span-3">
                     <h2 class="text-3xl">Sobre mi</h2>
                     <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, illum reiciendis? Nihil, error.
@@ -87,19 +88,99 @@
 
         </div>
         <div class="h-screen">
-
+            <h2 class="text-white text-3xl text-center m-16">Projects</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide justify-items-center">
+                        <div id="card" class="card gap-20 grid grid-cols-2 bg-gray-700 rounded-lg w-11/12 justify-items-center ml-14 h-full">
+                            <div class="text-left ml-20  w-10/12 h-full">
+                                <h2 class="text-white text-6xl mb-20">Name Of Project</h2>
+                                <h3 class="text-white text-3xl mb-6">Lenguajes utilizados</h3>
+                                <div id="imagenes" class="grid grid-cols-2 gap-10 justify-items-center">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                </div>
+                            </div>
+                            <div class="" id="imagen">
+                                <img src="/img/pringBoot.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide justify-items-center">
+                        <div id="card" class="card gap-20 grid grid-cols-2 bg-gray-700 rounded-lg w-11/12 justify-items-center ml-14 h-full">
+                            <div class="text-left ml-20  w-10/12 h-full">
+                                <h2 class="text-white text-6xl mb-20">Name Of Project</h2>
+                                <h3 class="text-white text-3xl mb-6">Lenguajes utilizados</h3>
+                                <div id="imagenes" class="grid grid-cols-2 gap-10 justify-items-center">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                </div>
+                            </div>
+                            <div class="" id="imagen">
+                                <img src="/img/pringBoot.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide justify-items-center">
+                        <div id="card" class="card gap-20 grid grid-cols-2 bg-gray-700 rounded-lg w-11/12 justify-items-center ml-14 h-full">
+                            <div class="text-left ml-20  w-10/12 h-full">
+                                <h2 class="text-white text-6xl mb-20">Name Of Project</h2>
+                                <h3 class="text-white text-3xl mb-6">Lenguajes utilizados</h3>
+                                <div id="imagenes" class="grid grid-cols-2 gap-10 justify-items-center">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                </div>
+                            </div>
+                            <div class="" id="imagen">
+                                <img src="/img/pringBoot.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide justify-items-center">
+                        <div id="card" class="card gap-20 grid grid-cols-2 bg-gray-700 rounded-lg w-11/12 justify-items-center ml-14 h-full">
+                            <div class="text-left ml-20  w-10/12 h-full">
+                                <h2 class="text-white text-6xl mb-20">Name Of Project</h2>
+                                <h3 class="text-white text-3xl mb-6">Lenguajes utilizados</h3>
+                                <div id="imagenes" class="grid grid-cols-2 gap-10 justify-items-center">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                    <img src="/img/html.png" class="w-6/12" alt="">
+                                </div>
+                            </div>
+                            <div class="" id="imagen">
+                                <img src="/img/pringBoot.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
+
     </main>
 
 
 
     <div id="particles-js"></div>
 
-    <script src="/src/particlesJS/particles.js"></script>
-    <script src="/js/particles/app.js"></script>
 
 
 
 </body>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/projects.js"></script>
+
+<script src="particles.js"></script>
+<script src="js/particles/app.js"></script>
 
 </html>
